@@ -1,0 +1,100 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #334155; /* Azul escuro como cor de fundo */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+  }
+  
+  .gradient-bg {
+    background: linear-gradient(180deg, #AD00FF, #FE79B9, #2489FF, #334155 75%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Gradiente ocupando 100% da altura da tela */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .section-margin {
+    margin-top: -6rem; /* Ajuste a margem superior negativa para estar muito mais perto */
+    position: relative; /* Necessário para a linha divisória ser posicionada corretamente */
+    padding-bottom: 2rem; /* Espaço abaixo do conteúdo da seção */
+  }
+  
+  .divider {
+    border-top: 1px solid rgba(173, 216, 230, 0.5); /* Azul claro com transparência */
+    margin: 0.5rem 0; /* Espaço acima e abaixo da linha divisória */
+    width: 100%; /* Ocupa toda a largura da seção */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    gap: 2rem; 
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .sidebar-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem; 
+  }
+  
+  .content-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: justify; 
+    max-width: 800px; 
+    height: auto;
+    padding: 0.5rem; 
+  }
+  
+  .title {
+    font-weight: bold;
+    color: #FEFEFE; 
+    margin-bottom: 0.25rem; 
+  }
+  
+  .text-content {
+    text-align: justify; /* Justifica o texto */
+  }
+  
+  .bg-indigo-custom {
+    background-color: #bfa2f1; /* Cor personalizada */
+    border: 1px solid #7C3AED; /* Borda com a mesma cor do fundo */
+    box-shadow: inset 0 4px 8px rgba(124, 58, 237, 0.5); /* Sombra interna esmaecida */
+  }
+  
+  .bg-blue-custom {
+    background-color: #95c0eb; /* Cor personalizada */
+    border: 1px solid #0A66C2; /* Borda com a mesma cor do fundo */
+    box-shadow: inset 0 4px 8px rgba(10, 102, 194, 0.5); /* Sombra interna esmaecida */
+  }
+  
+  .bg-red-custom {
+    background-color: #ec9f87; /* Cor personalizada */
+    border: 1px solid #F24E1E; /* Borda com a mesma cor do fundo */
+    box-shadow: inset 0 4px 8px rgba(242, 78, 30, 0.5); /* Sombra interna esmaecida */
+  }
+  
+  .bg-black-custom {
+    background-color: #c5bebe; /* Cor personalizada */
+    border: 1px solid #000000; /* Borda com a mesma cor do fundo */
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra interna esmaecida */
+  }
+  
+  .text-white-custom {
+    color: #000000; /* Cor do texto */
+  }
+  
+  
